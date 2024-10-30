@@ -3,7 +3,7 @@ import requests
 
 def lambda_handler(event, context):
     # Get the Slack webhook URL from environment variables
-    slack_webhook_url = os.getenv('SLACK_WEBHOOK_URL')
+    slack_webhook_url = os.getenv('https://hooks.slack.com/services/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')
     
     if not slack_webhook_url:
         print("Slack webhook URL not found in environment variables.")
